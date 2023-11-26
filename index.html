@@ -7,10 +7,524 @@
     <title>CHICAS MEJORES</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+    <div class="page">
+        <header class="header">
+            <div class="wrapper header__wrapper">
+                <a href="#" class="header__logo-link">
+                    <svg width="220" height="30" viewBox="0 0 220 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_47_171)">
+                            <g clip-path="url(#clip1_47_171)">
+                                <path
+                                    d="M8.06713 0.600098H19.5096C23.6229 0.600098 26.9884 3.98391 26.9884 8.11968V21.8805C26.9884 26.0163 23.6229 29.4001 19.5096 29.4001H8.06713C3.95382 29.4001 0.588379 26.0163 0.588379 21.8805V8.11968C0.588379 3.98391 3.95382 0.600098 8.06713 0.600098Z"
+                                    fill="#D64E52" />
+                                <path
+                                    d="M44.0344 7.7999V23.7749H40.428V17.2499H33.2888V23.7749H29.6824V7.7999H33.2888V14.0999H40.428V7.7999H44.0344ZM47.7144 7.7999H51.3208V23.7749H47.7144V7.7999ZM62.5816 23.9999C60.9624 23.9999 59.564 23.6249 58.2392 22.9499C56.9144 22.2749 55.9576 21.2999 55.2216 20.0249C54.4856 18.7499 54.1176 17.3249 54.1176 15.7499C54.1176 14.1749 54.4856 12.7499 55.2216 11.4749C55.9576 10.1999 56.988 9.2249 58.2392 8.5499C59.4904 7.8749 60.9624 7.4999 62.5816 7.4999C63.9064 7.4999 65.1576 7.7249 66.2616 8.2499C67.3656 8.6999 68.2488 9.4499 69.0584 10.3499L66.7032 12.5249C65.6728 11.2499 64.348 10.6499 62.7288 10.6499C61.772 10.6499 60.8888 10.8749 60.1528 11.3249C59.4168 11.7749 58.828 12.3749 58.3864 13.1249C57.9448 13.8749 57.724 14.7749 57.724 15.7499C57.724 16.7249 57.9448 17.6249 58.3864 18.3749C58.828 19.1249 59.4168 19.7249 60.1528 20.1749C60.8888 20.6249 61.772 20.8499 62.7288 20.8499C64.2744 20.8499 65.5992 20.2499 66.7032 18.9749L69.0584 21.1499C68.3224 22.0499 67.3656 22.7999 66.2616 23.2499C65.1576 23.6999 63.9064 23.9999 62.5816 23.9999ZM81.4968 20.3249H74.2104L72.812 23.7749H69.132L76.124 7.7999H79.7304L86.7224 23.7749H82.8952L81.4968 20.3249ZM80.3192 17.5499L77.8168 11.4749L75.3144 17.5499H80.3192ZM93.42 23.9999C92.1688 23.9999 90.9912 23.8499 89.8136 23.4749C88.636 23.0999 87.7528 22.7249 87.0168 22.1249L88.268 19.3499C88.9304 19.8749 89.74 20.2499 90.6968 20.5499C91.6536 20.8499 92.5368 20.9999 93.4936 20.9999C94.524 20.9999 95.26 20.8499 95.7752 20.5499C96.2904 20.2499 96.5112 19.7999 96.5112 19.2749C96.5112 18.8999 96.364 18.5999 96.0696 18.2999C95.7752 18.0749 95.4072 17.8499 94.9656 17.6999C94.524 17.5499 93.8616 17.3999 93.1256 17.1749C91.948 16.8749 90.9912 16.5749 90.1816 16.2749C89.4456 15.9749 88.7832 15.5249 88.1944 14.8499C87.6056 14.1749 87.3848 13.3499 87.3848 12.2999C87.3848 11.3999 87.6056 10.4999 88.1208 9.7499C88.636 8.9999 89.372 8.3999 90.3288 7.9499C91.2856 7.4999 92.5368 7.2749 93.9352 7.2749C94.9656 7.2749 95.9224 7.4249 96.8792 7.6499C97.836 7.8749 98.6456 8.2499 99.3816 8.6999L98.2776 11.4749C96.8056 10.6499 95.4072 10.1999 93.9352 10.1999C92.9048 10.1999 92.1688 10.3499 91.6536 10.7249C91.1384 11.0249 90.9176 11.4749 90.9176 12.0749C90.9176 12.5999 91.212 13.0499 91.7272 13.2749C92.316 13.5749 93.1256 13.7999 94.3032 14.0249C95.4808 14.3249 96.4376 14.6249 97.2472 14.9249C98.0568 15.2249 98.6456 15.6749 99.2344 16.2749C99.7496 16.8749 100.044 17.7749 100.044 18.8249C100.044 19.7249 99.8232 20.5499 99.308 21.2999C98.7928 22.0499 98.0568 22.6499 97.0264 23.0999C96.0696 23.8499 94.892 23.9999 93.42 23.9999ZM123.154 23.7749V14.1749L118.518 22.0499H116.898L112.335 14.3999V23.7749H108.95V7.7999H111.967L117.855 17.6999L123.596 7.7999H126.54L126.614 23.7749H123.154ZM142.364 20.7749V23.7749H130.22V7.7999H142.07V10.7999H133.826V14.2499H141.113V17.0999H133.826V20.7749H142.364ZM148.178 23.9999C147.148 23.9999 146.118 23.7749 145.234 23.3999C144.351 23.0249 143.615 22.4249 143.026 21.6749L145.014 19.1999C145.897 20.3999 146.854 20.9249 147.958 20.9249C149.43 20.9249 150.166 20.0249 150.166 18.2999V10.7999H144.719V7.7999H153.846V18.1499C153.846 20.0999 153.404 21.5999 152.447 22.5749C151.417 23.5499 150.018 23.9999 148.178 23.9999ZM164.959 23.9999C163.34 23.9999 161.868 23.6249 160.543 22.9499C159.218 22.1999 158.188 21.2249 157.452 20.0249C156.716 18.7499 156.348 17.3249 156.348 15.8249C156.348 14.3249 156.716 12.8249 157.452 11.6249C158.188 10.3499 159.218 9.3749 160.543 8.6999C161.868 7.9499 163.34 7.6499 164.959 7.6499C166.578 7.6499 168.05 8.0249 169.375 8.6999C170.7 9.4499 171.73 10.4249 172.466 11.6249C173.202 12.8999 173.57 14.3249 173.57 15.8249C173.57 17.3999 173.202 18.8249 172.466 20.0249C171.73 21.2999 170.7 22.2749 169.375 22.9499C168.05 23.6999 166.578 23.9999 164.959 23.9999ZM164.959 20.8499C165.916 20.8499 166.726 20.6249 167.462 20.1749C168.198 19.7249 168.786 19.1249 169.228 18.3749C169.67 17.6249 169.89 16.7249 169.89 15.7499C169.89 14.7749 169.67 13.8749 169.228 13.1249C168.786 12.3749 168.198 11.7749 167.462 11.3249C166.726 10.8749 165.916 10.6499 164.959 10.6499C164.002 10.6499 163.193 10.8749 162.457 11.3249C161.721 11.7749 161.132 12.3749 160.69 13.1249C160.249 13.8749 160.028 14.7749 160.028 15.7499C160.028 16.7249 160.249 17.6249 160.69 18.3749C161.132 19.1249 161.721 19.7249 162.457 20.1749C163.193 20.6999 164.076 20.8499 164.959 20.8499ZM186.23 23.7749L183.212 19.3499H183.065H179.9V23.7749H176.294V7.7999H183.065C184.463 7.7999 185.641 8.0249 186.671 8.4749C187.702 8.9249 188.511 9.5999 189.026 10.4999C189.542 11.3999 189.836 12.3749 189.836 13.5749C189.836 14.7749 189.542 15.7499 189.026 16.6499C188.438 17.4749 187.702 18.1499 186.671 18.5999L190.204 23.6999H186.23V23.7749ZM186.156 13.5749C186.156 12.6749 185.862 11.9999 185.273 11.4749C184.684 11.0249 183.874 10.7249 182.77 10.7249H179.826V16.3499H182.77C183.874 16.3499 184.684 16.1249 185.273 15.5999C185.862 15.1499 186.156 14.4749 186.156 13.5749ZM204.85 20.7749V23.7749H192.706V7.7999H204.556V10.7999H196.313V14.2499H203.599V17.0999H196.313V20.7749H204.85ZM212.873 23.9999C211.622 23.9999 210.444 23.8499 209.266 23.4749C208.089 23.0999 207.206 22.7249 206.47 22.1249L207.721 19.3499C208.383 19.8749 209.193 20.2499 210.15 20.5499C211.106 20.8499 211.99 20.9999 212.946 20.9999C213.977 20.9999 214.713 20.8499 215.228 20.5499C215.743 20.2499 215.964 19.7999 215.964 19.2749C215.964 18.8999 215.817 18.5999 215.522 18.2999C215.228 17.9999 214.86 17.8499 214.418 17.6999C213.977 17.5499 213.314 17.3999 212.578 17.1749C211.401 16.8749 210.444 16.5749 209.634 16.2749C208.825 15.9749 208.236 15.5249 207.647 14.8499C207.132 14.1749 206.838 13.3499 206.838 12.2999C206.838 11.3999 207.058 10.4999 207.574 9.7499C208.089 8.9999 208.825 8.3999 209.782 7.9499C210.738 7.4999 211.99 7.2749 213.388 7.2749C214.418 7.2749 215.375 7.4249 216.332 7.6499C217.289 7.8749 218.098 8.2499 218.834 8.6999L217.73 11.4749C216.258 10.6499 214.86 10.1999 213.388 10.1999C212.358 10.1999 211.622 10.3499 211.106 10.7249C210.591 11.0249 210.37 11.4749 210.37 12.0749C210.37 12.5999 210.665 13.0499 211.18 13.2749C211.769 13.5749 212.578 13.7999 213.756 14.0249C214.934 14.3249 215.89 14.6249 216.7 14.9249C217.51 15.2249 218.098 15.6749 218.687 16.2749C219.202 16.8749 219.497 17.7749 219.497 18.8249C219.497 19.7249 219.276 20.5499 218.761 21.2999C218.246 22.0499 217.51 22.6499 216.479 23.0999C215.522 23.8499 214.271 23.9999 212.873 23.9999Z"
+                                    fill="#070808" />
+                                <path
+                                    d="M14.3515 24C12.7323 24 11.3339 23.625 10.0091 22.95C8.68425 22.275 7.72745 21.3 6.99145 20.025C6.25545 18.75 5.88745 17.325 5.88745 15.75C5.88745 14.175 6.25545 12.75 6.99145 11.475C7.72745 10.2 8.75785 9.225 10.0091 8.55C11.2603 7.875 12.7323 7.5 14.3515 7.5C15.6763 7.5 16.9275 7.725 18.0315 8.25C19.1355 8.7 20.0187 9.45 20.8283 10.35L18.4731 12.525C17.4427 11.25 16.1179 10.65 14.4987 10.65C13.5419 10.65 12.6587 10.875 11.9227 11.325C11.1867 11.775 10.5979 12.375 10.1563 13.125C9.71465 13.875 9.49385 14.775 9.49385 15.75C9.49385 16.725 9.71465 17.625 10.1563 18.375C10.5979 19.125 11.1867 19.725 11.9227 20.175C12.6587 20.625 13.5419 20.85 14.4987 20.85C16.0443 20.85 17.3691 20.25 18.4731 18.975L20.8283 21.15C20.0923 22.05 19.1355 22.8 18.0315 23.25C17.0011 23.775 15.7499 24 14.3515 24Z"
+                                    fill="white" />
+                            </g>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_47_171">
+                                <rect width="219.6" height="28.8" fill="white" transform="translate(0 0.600098)" />
+                            </clipPath>
+                            <clipPath id="clip1_47_171">
+                                <rect width="219.6" height="28.8" fill="white" transform="translate(0 0.600098)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+                <div class="lang-menu header__lang-menu">
+                    <div class="lang-menu__header">
+                        <span class="lang-menu__current-lang lang-menu__current-lang_en">
+                            EN
+                        </span>
+                        <div class="lang-menu__chevron">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.25829 9.7585L9.41663 11.9168C9.74163 12.2418 10.2666 12.2418 10.5916 11.9168L12.75 9.7585C13.275 9.2335 12.9 8.3335 12.1583 8.3335H7.84163C7.09996 8.3335 6.73329 9.2335 7.25829 9.7585Z"
+                                    fill="#5F5F69" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="lang-menu__content">
+                        <div class="lang-menu__content-item lang-menu__content-item_en ">
+                            EN
+                        </div>
+                        <div class="lang-menu__content-item lang-menu__content-item_en ">
+                            EN
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="promo-section">
+                <div class="wrapper promo-section__wrapper">
+                    <div class="promo-section__content">
+                        <h1 class="heading promo-section__heading">
+                            Promoting Escort Careers in
+                            <span>
+                                Latin America
+                            </span>
+                        </h1>
+                        <p class="text promo-section__description">
+                            More than 5000 profiles already on our platform
+                        </p>
+                        <form action="" method="post" class="form promo-section__form">
+                            <label class="form__label">
+                                Email
+                                <input required type="email" class="form__input">
+                            </label>
+                            <button type="submit" class="btn form__btn">
+                                Try first month for free
+                            </button>
+                            <p class="promo-section__subtext">
+                                By continuing, I confirm I have read the <a href="#">
+                                    Privacy Policy
+                                </a> and agree to the <a href="#">
+                                    Terms and Conditions
+                                </a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="adv-section">
+                <div class="wrapper adv-section__wrapper">
+                    <div class="adv-section__content">
+                        <h2 class="subheading adv-section__heading">
+                            At first, <span>advertising</span> on internet platforms may seem very appealing.
+                        </h2>
+                        <p class="text adv-section__text">
+                            However, many of these sites have scammers, human trafficking networks, and fake profiles,
+                            which make escorts hesitant
+                            to post ads. This is especially true because these platforms don't provide the conditions to
+                            ensure the safety of both
+                            models and clients
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="cards-section">
+                <div class="wrapper cards-section__wrapper">
+                    <p class="cards-section__subtext">
+                        and...
+                    </p>
+                    <h2 class="subheading cards-section__heading">
+                        There are a lot of <span>other challenges</span> that models may face when starting their own
+                        carier
+                    </h2>
+                    <div class="cards-section__list">
+                        <div class="card cards-section__card">
+                            <img src="./assets/svg/card-1.svg" alt="    
+                            " class="card__img">
+                            <p class="card__text">
+                                Avoiding the stigma that it's only about sexual services or prostitution
+                            </p>
+                        </div>
+                        <div class="card cards-section__card">
+                            <img src="./assets/svg/card-2.svg" alt="    
+                            " class="card__img">
+                            <p class="card__text">
+                                Establishing contract guidelines to avoid misunderstandings
+                            </p>
+                        </div>
+                        <div class="card cards-section__card">
+                            <img src="./assets/svg/card-3.svg" alt="    
+                            " class="card__img">
+                            <p class="card__text">
+                                Staying relaxed to express sophistication and elegance
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="solve-section">
+                <div class="wrapper solve-section__wrapper">
+                    <div class="solve-section__content">
+                        <h2 class="subheading solve-section__heading">
+                            To solve these problems we’ve created <span>Chicasmejores.com</span>
+                        </h2>
+                        <p class="text solve-section__text">
+                            A platform that connects models and clients. And helps models to drive their income.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="try-section">
+                <div class="wrapper try-section__wrapper">
+                    <h2 class="subheading subheading_white try-section__heading">
+                        Try сhicasmejores.com
+                    </h2>
+                    <p class="try-section__text">
+                        Every registered individual will get one month free
+                    </p>
+                    <button type="button" class="btn btn_white try-section__btn">
+                        Try first month for free
+                    </button>
+                </div>
+            </section>
+            <section class="goal-section">
+                <div class="wrapper goal-section__wrapper">
+                    <div class="goal-section__content">
+                        <h2 class="subheading goal-section__heading">
+                            As a platform <span>our goal is...</span>
+                        </h2>
+                        <p class="text goal-section__text">
+                            to become better alternative to social media and dating site connections
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="platform-section">
+                <div class="wrapper platform-section__wrapper">
+                    <div class="platform-section__content">
+                        <h2 class="subheading platform-section__heading">
+                            Try our platform
+                            <span>First month for free</span>
+                        </h2>
+                        <p class="platform-section__text">
+                            More than 5000 profiles already on our platform
+                        </p>
+                        <button type="button" class="btn platform-section__btn">
+                            Try first month for free
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews-section">
+                <div class="wrapper reviews-section__wrapper">
+                    <h2 class="subheading reviews-section__heading">
+                        See what our models tell about <span>chicasmejores.com</span>
+                    </h2>
+                    <div class="swiper reviews-section__swiper">
+                        <button type="button" class="reviews-section__swiper-btn reviews-section__swiper-btn_left">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.71 15.88L10.83 12L14.71 8.11998C15.1 7.72998 15.1 7.09998 14.71 6.70998C14.32 6.31998 13.69 6.31998 13.3 6.70998L8.71 11.3C8.32 11.69 8.32 12.32 8.71 12.71L13.3 17.3C13.69 17.69 14.32 17.69 14.71 17.3C15.09 16.91 15.1 16.27 14.71 15.88Z"
+                                    fill="#5F5F69" />
+                            </svg>
+                        </button>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide reviews-section__swiper-slide">
+                                <div class="reviews-card reviews-section__card">
+                                    <h3 class="reviews-card__heading">
+                                        Gabriela M.
+                                    </h3>
+                                    <div class="reviews-card__body">
+                                        <p>
+                                            Unbelievable results with Chicas Mejores! Since signing up, my business has
+                                            experienced a surge in client traffic. The
+                                            exposure and marketing they provide have been instrumental in helping me
+                                            earn more than ever before. Thank you, Chicas
+                                            Mejores, for making my dreams come true!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide reviews-section__swiper-slide">
+                                <div class="reviews-card reviews-section__card">
+                                    <h3 class="reviews-card__heading">
+                                        Gabriela M.
+                                    </h3>
+                                    <div class="reviews-card__body">
+                                        <p>
+                                            Unbelievable results with Chicas Mejores! Since signing up, my business has
+                                            experienced a surge in client traffic. The
+                                            exposure and marketing they provide have been instrumental in helping me
+                                            earn more than ever before. Thank you, Chicas
+                                            Mejores, for making my dreams come true!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide reviews-section__swiper-slide">
+                                <div class="reviews-card reviews-section__card">
+                                    <h3 class="reviews-card__heading">
+                                        Gabriela M.
+                                    </h3>
+                                    <div class="reviews-card__body">
+                                        <p>
+                                            Unbelievable results with Chicas Mejores! Since signing up, my business has
+                                            experienced a surge in client traffic. The
+                                            exposure and marketing they provide have been instrumental in helping me
+                                            earn more than ever before. Thank you, Chicas
+                                            Mejores, for making my dreams come true!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide reviews-section__swiper-slide">
+                                <div class="reviews-card reviews-section__card">
+                                    <h3 class="reviews-card__heading">
+                                        Gabriela M.
+                                    </h3>
+                                    <div class="reviews-card__body">
+                                        <p>
+                                            Unbelievable results with Chicas Mejores! Since signing up, my business has
+                                            experienced a surge in client traffic. The
+                                            exposure and marketing they provide have been instrumental in helping me
+                                            earn more than ever before. Thank you, Chicas
+                                            Mejores, for making my dreams come true!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="reviews-section__swiper-btn reviews-section__swiper-btn_right">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.29 15.88L13.17 12L9.29 8.11998C8.9 7.72998 8.9 7.09998 9.29 6.70998C9.68 6.31998 10.31 6.31998 10.7 6.70998L15.29 11.3C15.68 11.69 15.68 12.32 15.29 12.71L10.7 17.3C10.31 17.69 9.68 17.69 9.29 17.3C8.91 16.91 8.9 16.27 9.29 15.88Z"
+                                    fill="#5F5F69" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="features-section">
+                <div class="wrapper features-section__wrapper">
+                    <div class="features-section__content">
+                        <h2 class="subheading features-section__heading">
+                            We have some <span>useful features</span>
+                        </h2>
+                        <div class="features-section__list">
+                            <div class="feature-card features-section__card">
+                                <div class="feature-card__icon">
+                                    🚀
+                                </div>
+                                <p class="feature-card__text">
+                                    Describe every detail that is important for you
+                                </p>
+                            </div>
+                            <div class="feature-card features-section__card">
+                                <div class="feature-card__icon">
+                                    🗺️
+                                </div>
+                                <p class="feature-card__text">
+                                    Add up to 3 locations into your profile
+                                </p>
+                            </div>
+                            <div class="feature-card features-section__card">
+                                <div class="feature-card__icon">
+                                    📷
+                                </div>
+                                <p class="feature-card__text">
+                                    And upload up to 12 photos to make your profile attractive
+                                </p>
+                            </div>
+                        </div>
+                        <p class="features-section__subtext">
+                            We continuously develop our service and try to figure out what feature will be next
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="agency-section">
+                <div class="wrapper agency-section__wrapper">
+                    <div class="agency-section__content">
+                        <h2 class="subheading agency-section__heading">
+                            And for <span>agencies</span> too
+                        </h2>
+                        <div class="agency-section__list">
+                            <div class="feature-card agency-section__card">
+                                <div class="feature-card__icon">
+                                    💫
+                                </div>
+                                <p class="feature-card__text">
+                                    Add as much model profiles as you want
+                                </p>
+                            </div>
+                            <div class="feature-card agency-section__card">
+                                <div class="feature-card__icon">
+                                    ✏️
+                                </div>
+                                <p class="feature-card__text">
+                                    Edit all profile contacts just in one click
+                                </p>
+                            </div>
+                            <div class="feature-card agency-section__card">
+                                <div class="feature-card__icon">
+                                    💎
+                                </div>
+                                <p class="feature-card__text">
+                                    Up to 50 profiles for big agencies
+                                </p>
+                            </div>
+                        </div>
+                        <p class="agency-section__subtext">
+                            We continuously develop our service and try to figure out what feature will be next
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="start-section">
+                <div class="wrapper start-section__wrapper">
+                    <h2 class="subheading start-section__heading">
+                        To start, publish your first profile just <span>in 10 minutes</span>
+                    </h2>
+                    <div class="start-section__roadmap">
+                        <div class="start-section__roadmap-item">
+                            <div class="start-section__roadmap-item-icon">
+                                💻
+                            </div>
+                            <p class="start-section__roadmap-item-text">
+                                Go to <br> <a href="https://models.chicasmejores.com">
+                                    models.chicasmejores.com
+                                </a>
+                            </p>
+                        </div>
+                        <div class="start-section__roadmap-item">
+                            <div class="start-section__roadmap-item-icon">
+                                👨‍💻
+                            </div>
+                            <p class="start-section__roadmap-item-text">
+                                Fill in profile details just in <span>10 minutes</span>
+                            </p>
+                        </div>
+                        <div class="start-section__roadmap-item">
+                            <div class="start-section__roadmap-item-icon">
+                                👯‍♀️
+                            </div>
+                            <p class="start-section__roadmap-item-text">
+                                Pass moderation and <span>start earning</span>
+                            </p>
+                        </div>
+                    </div>
+                    <button type="button" class="btn start-section__btn">
+                        Try first month for free
+                    </button>
+                </div>
+            </section>
+            <section class="matter-section">
+                <div class="wrapper matter-section__wrapper">
+                    <div class="matter-section__content">
+                        <h2 class="subheading matter-section__heading">
+                            <span>No matter</span> agency you are or individual
+                        </h2>
+                        <p class="text matter-section__text">
+                            You can create and manage <span>up to 50 models</span> profiles 🔥
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="only-section">
+                <div class="wrapper only-section__wrapper">
+                    <h2 class="subheading only-section__heading">
+                        Only <span class="subheading__disc">18 USD</span> per month for each profile
+                    </h2>
+                    <p class="text only-section__text">
+                        And we will handle all the promotion of your profiles 💫
+                    </p>
+                    <button type="button" class="btn btn_white only-section__btn">
+                        Try first month for free
+                    </button>
+                </div>
+            </section>
+            <section class="questions-section">
+                <div class="wrapper questions-section__wrapper">
+                    <h2 class="subheading questions-section__heading">
+                        Frequently asked questions
+                    </h2>
+                    <div class="questions-section__list">
+                        <div class="accordion">
+                            <div class="accordion__header">
+                                <h4 class="accordion__heading">
+                                    Question #1
+                                </h4>
+                                <div class="accordion__icon">
+                                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="18" cy="18" r="18" fill="#F6F8FA" />
+                                        <path d="M10.08 18H26.3718M18.2259 9.85413V26.1459" stroke="#1F2547"
+                                            stroke-width="0.766874" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="text accordion__text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eligendi repellat
+                                    neque qui quae.
+                                </p>
+                                <p class="text accordion__text">
+                                    <span>Lorem, ipsum dolor</span> sit amet consectetur adipisicing elit. Est eligendi
+                                    repellat
+                                    neque qui quae.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion__header">
+                                <h4 class="accordion__heading">
+                                    Question #1
+                                </h4>
+                                <div class="accordion__icon">
+                                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="18" cy="18" r="18" fill="#F6F8FA" />
+                                        <path d="M10.08 18H26.3718M18.2259 9.85413V26.1459" stroke="#1F2547"
+                                            stroke-width="0.766874" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="text accordion__text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eligendi repellat
+                                    neque qui quae.
+                                </p>
+                                <p class="text accordion__text">
+                                    <span>Lorem, ipsum dolor</span> sit amet consectetur adipisicing elit. Est e <a
+                                        href="#">
+                                        ligendi
+                                    </a>
+                                    repellat
+                                    neque qui quae.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion__header">
+                                <h4 class="accordion__heading">
+                                    Question #1
+                                </h4>
+                                <div class="accordion__icon">
+                                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="18" cy="18" r="18" fill="#F6F8FA" />
+                                        <path d="M10.08 18H26.3718M18.2259 9.85413V26.1459" stroke="#1F2547"
+                                            stroke-width="0.766874" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="text accordion__text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eligendi repellat
+                                    neque qui quae.
+                                </p>
+                                <p class="text accordion__text">
+                                    <a href="#">Lorem, ipsum dolor</a> sit amet consectetur adipisicing elit. Est
+                                    eligendi
+                                    repellat
+                                    neque qui quae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scripts/slider.js"></script>
+    <script src="./scripts/accordion.js"></script>
 </body>
 
 </html>

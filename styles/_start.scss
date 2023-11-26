@@ -1,0 +1,88 @@
+.start-section {
+  padding-top: 53px;
+  padding-bottom: 69px;
+  background-color: $bgColor;
+  &__wrapper {
+    max-width: 1017.5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__heading {
+    margin-bottom: 84px;
+  }
+
+  &__roadmap {
+    width: 100%;
+    margin-bottom: 79px;
+    display: grid;
+    grid-template-columns: 32.63% 20.84% 18.28%;
+    justify-content: space-between;
+  }
+
+  &__roadmap-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    &::after {
+      content: '';
+      width: 174.515px;
+      height: 94.18px;
+      position: absolute;
+      right: -137px;
+      top: -19px;
+      background-image: url('../assets/svg/right-line-1.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+    &:nth-child(even)::after {
+      top: unset;
+      bottom: -77px;
+      right: -150px;
+      background-image: url('../assets/svg/right-line-2.svg');
+    }
+    &:last-child::after {
+      display: none;
+    }
+  }
+
+  &__roadmap-item-icon {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 50.4px */
+  }
+
+  &__roadmap-item-text {
+    color: $black;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    a {
+      text-decoration: underline;
+      transition: $defaultTransitionTime;
+      &:hover {
+        text-decoration-color: transparent;
+      }
+    }
+    a,
+    span {
+      color: $accent;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+
+  &__btn {
+  }
+}

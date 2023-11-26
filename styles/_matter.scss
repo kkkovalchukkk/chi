@@ -1,0 +1,24 @@
+.matter-section {
+  &__wrapper {
+    padding-top: 256px;
+    padding-bottom: 256px;
+    align-items: center;
+    justify-content: start;
+    background-image: url('../assets/img/matter-bg.png');
+    background-repeat: no-repeat;
+    background-position: right 152px center;
+  }
+
+  &__content {
+    max-width: 383px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 16px;
+  }
+
+  &__text {
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,30 @@
+.only-section {
+  padding-top: 86.03px;
+  padding-bottom: 70.94px;
+  background: #f6f8fa;
+  background-image: url('../assets/img/gradient-line-2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 339px;
+  &__wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__heading {
+    color: $white;
+    margin-bottom: 12px;
+    span {
+      display: inline-block;
+      padding: 4px 16px;
+      border-radius: 83.333px;
+      background: $white;
+    }
+  }
+
+  &__text {
+    color: $white;
+    margin-bottom: 42px;
+  }
+}

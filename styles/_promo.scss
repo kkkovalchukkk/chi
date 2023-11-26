@@ -1,0 +1,54 @@
+.promo-section {
+  width: 100%;
+  background-image: $ltGradient;
+
+  @media (max-width: 525px) {
+    font-size: 24px;
+  }
+  &__wrapper {
+    padding-top: 99.5px;
+    padding-bottom: 98.5px;
+    background-repeat: no-repeat;
+    background-image: url('../assets/svg/promo-bg.svg');
+    background-position: top 36px right 169px;
+  }
+
+  &__content {
+    max-width: 540px;
+  }
+
+  &__heading {
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    max-width: 379px;
+    margin-bottom: 32px;
+  }
+
+  &__subtext {
+    text-align: center;
+    max-width: 422px;
+    color: $dark;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    a {
+      color: $black;
+      // font-family: SF Pro Text;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration-line: underline;
+      text-decoration-color: $black;
+      transition: $defaultTransitionTime;
+      &:hover {
+        text-decoration-color: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.lang-menu {
+  border-radius: 4px;
+  background-color: $bgColor;
+  cursor: pointer;
+  position: relative;
+  &:hover {
+    .lang-menu__content {
+      max-height: 60px;
+    }
+    .lang-menu__chevron {
+      transform: rotate(180deg);
+    }
+  }
+  &__header {
+    padding: 4px 2px 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  &__current-lang {
+    padding-left: 21px;
+    color: $dark;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: $mainFont;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-position: left 0 top 1px;
+    &_en {
+      background-image: url('../../assets/svg/english.svg');
+    }
+  }
+
+  &__chevron {
+    transition: $defaultTransitionTime;
+  }
+
+  &__content {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    width: 100%;
+    transition: $defaultTransitionTime;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bgColor;
+  }
+
+  &__content-item {
+    width: 100%;
+    padding: 6px;
+    padding-right: 0;
+    padding-left: 6px;
+    color: $dark;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: $mainFont;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-size: 17px;
+    background-position: left 8px center;
+    background-repeat: no-repeat;
+    transition: $defaultTransitionTime;
+    border-bottom: 1px solid $gray;
+    cursor: pointer;
+    &:hover {
+      background-color: $gray;
+    }
+    &_en {
+      background-image: url('../../assets/svg/english.svg');
+    }
+  }
+}

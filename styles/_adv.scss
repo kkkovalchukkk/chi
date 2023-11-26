@@ -1,0 +1,20 @@
+.adv-section {
+  &__wrapper {
+    align-items: center;
+    justify-content: end;
+    padding-top: 77px;
+    padding-bottom: 66px;
+    background-image: url('../assets/svg/first-bg.svg');
+    background-repeat: no-repeat;
+    background-position: left 25px center;
+  }
+
+  &__content {
+    max-width: 713px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 24px;
+  }
+}

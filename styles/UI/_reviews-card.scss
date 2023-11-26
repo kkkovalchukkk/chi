@@ -1,0 +1,36 @@
+.reviews-card {
+  width: 100%;
+  max-width: 830px;
+  padding: 24px 32px;
+  border-radius: 12px;
+  background: $white;
+  &__heading {
+    margin-bottom: 24px;
+    background: $brandGradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: $mainFont;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__body {
+    padding: 8px 8px 8px 24px;
+    border-left: 2px solid $accent;
+    p {
+      color: $black;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: $mainFont;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+}

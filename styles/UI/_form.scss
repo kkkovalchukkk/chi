@@ -1,0 +1,39 @@
+.form {
+  width: 100%;
+  max-width: 422px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 32px;
+  &__label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 8px;
+  }
+
+  &__input {
+    width: 100%;
+    max-width: 422px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid $darkGray;
+    background: $bgColor;
+    transition: $defaultTransitionTime;
+    font-family: $mainFont;
+    font-size: 19.048px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    &:focus {
+      outline: none;
+      box-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.2);
+    }
+  }
+  &__btn {
+    max-width: unset;
+  }
+}

@@ -1,0 +1,41 @@
+.features-section {
+  &__wrapper {
+    padding-top: 199.5px;
+    padding-bottom: 172.5px;
+    background-image: url('../assets/img/features-bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+
+  &__content {
+    max-width: 443px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 32px;
+  }
+
+  &__heading {
+    font-size: 32px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  &__subtext {
+    text-align: center;
+    color: $dark;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: $mainFont;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

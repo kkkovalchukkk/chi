@@ -1,0 +1,24 @@
+.goal-section {
+  &__wrapper {
+    padding-top: 214.5px;
+    padding-bottom: 214.5px;
+    background-image: url('../assets/svg/platform-bg.svg');
+    background-repeat: no-repeat;
+    background-position: right 202px center;
+  }
+
+  &__content {
+    max-width: 503px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 16px;
+  }
+
+  &__heading {
+  }
+
+  &__text {
+  }
+}

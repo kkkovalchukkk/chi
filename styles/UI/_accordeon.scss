@@ -1,0 +1,57 @@
+.accordion {
+  width: 100%;
+  cursor: pointer;
+  transition: $defaultTransitionTime;
+  border-bottom: 1px solid $ltGray;
+  &:active {
+    transform: scale(0.96);
+  }
+  &.active {
+    .accordion__icon {
+      transform: rotate(45deg);
+    }
+    .accordion__content {
+      visibility: visible;
+      opacity: 1;
+      padding: 16px;
+    }
+  }
+  &__header {
+    width: 100%;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    color: $ltBlack;
+    font-family: $mainFont;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__icon {
+    transition: $defaultTransitionTime;
+  }
+
+  &__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 16px;
+    transition: $defaultTransitionTime;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    max-height: 0px;
+  }
+
+  &__text {
+    font-size: 16px;
+  }
+}

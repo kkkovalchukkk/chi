@@ -1,0 +1,11 @@
+.subheading {
+  color: $black;
+  font-family: $mainFont;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  span {
+    color: $accent;
+  }
+}

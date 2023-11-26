@@ -1,6 +1,42 @@
+// Utils
+
 @import './vars';
 @import './fonts';
 @import './mixins';
 @import './reset';
 @import './global';
+
+// UI
+
+@import './UI/header';
+@import './UI/lang-menu';
+@import './UI/btn';
+@import './UI/form';
+@import './UI/subheading';
+@import './UI/heading';
+@import './UI/card';
+@import './UI/reviews-card';
+@import './UI/feature-card';
+@import './UI/text';
+@import './UI/accordeon';
+
+// Sections
+
+@import './promo';
+@import './adv';
+@import './cards';
+@import './solve';
+@import './try';
+@import './platform';
+@import './goal';
+@import './reviews';
+@import './features';
+@import './agency';
+@import './start';
+@import './matter';
+@import './only';
+@import './questions';
+
+// Styles
+
 @import './styles';

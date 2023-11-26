@@ -1,0 +1,19 @@
+.text {
+  color: $black;
+  font-family: $mainFont;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  span,
+  a {
+    color: $accent;
+  }
+  a {
+    text-decoration: underline;
+    transition: $defaultTransitionTime;
+    &:hover {
+      text-decoration-color: transparent;
+    }
+  }
+}

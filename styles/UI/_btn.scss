@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+  padding: 19px;
+  width: 100%;
+  max-width: 339px;
+  color: $white;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: $mainFont;
+  font-size: 19.048px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  border-radius: 83.333px;
+  background: $brandGradient;
+  transition: $defaultTransitionTime;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.025);
+    box-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.2);
+  }
+  &:active {
+    transform: scale(0.97);
+  }
+  &_white {
+    background: $white;
+    color: $accent;
+  }
+}

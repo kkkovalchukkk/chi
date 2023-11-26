@@ -13,8 +13,8 @@ $dark: #5f5f69;
 $darkGray: #b4b6ba;
 $gray: #e4e4e5;
 $warning: #ffb822;
-$ltGradient: linear-gradient(
-  178deg,
-  #ffe3e4 22.13%,
-  rgba(255, 227, 228, 0) 93.73%
-);
+$ltGradient: linear-gradient(160deg, #ffe3e4 0%, rgba(255, 227, 228, 0) 50%);
+
+$defaultTransitionTime: 0.23s;
+
+$headerZIndex: 2;
