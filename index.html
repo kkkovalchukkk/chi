@@ -15,6 +15,43 @@
 
 <body>
     <div class="page">
+        <div class="overlay">
+            <div class="popup">
+                <button type="button" class="popup__close-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.3 5.70997C17.91 5.31997 17.28 5.31997 16.89 5.70997L12 10.59L7.10997 5.69997C6.71997 5.30997 6.08997 5.30997 5.69997 5.69997C5.30997 6.08997 5.30997 6.71997 5.69997 7.10997L10.59 12L5.69997 16.89C5.30997 17.28 5.30997 17.91 5.69997 18.3C6.08997 18.69 6.71997 18.69 7.10997 18.3L12 13.41L16.89 18.3C17.28 18.69 17.91 18.69 18.3 18.3C18.69 17.91 18.69 17.28 18.3 16.89L13.41 12L18.3 7.10997C18.68 6.72997 18.68 6.08997 18.3 5.70997Z"
+                            fill="#B4B6BA" />
+                    </svg>
+                </button>
+                <img src="./assets/img/logo.svg" alt="
+                CHICAS MEJORES" class="popup__logo">
+                <h2 class="subheading popup__heading">
+                    Promoting Escort Careers in <span>Latin America</span>
+                </h2>
+                <p class="text popup__text">
+                    More than 5000 profiles already on our platform
+                </p>
+                <form action="" method="post" class="form popup__form">
+                    <label class="form__label">
+                        Email
+                        <input required type="email" name="email" id="" class="form__input">
+                    </label>
+                    <button class="btn form__btn" type="submit">
+                        Try first month for free
+                    </button>
+                    <p class="form__subtext">
+                        By continuing, I confirm I have read the <a href="#">
+                            Privacy Policy
+                        </a> and agree to the <a href="#">
+                            Terms and Conditions
+                        </a>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+
         <header data-aos-duration="1000" data-aos="fade-down" data-aos-once="true" class="header">
             <div class="wrapper header__wrapper">
                 <a href="#" class="header__logo-link">
@@ -169,7 +206,7 @@
                     <p class="try-section__text">
                         Every registered individual will get one month free
                     </p>
-                    <button type="button" class="btn btn_white try-section__btn">
+                    <button type="button" class="btn btn_white try-section__btn togglePopup">
                         Try first month for free
                     </button>
                 </div>
@@ -196,7 +233,7 @@
                         <p class="platform-section__text">
                             More than 5000 profiles already on our platform
                         </p>
-                        <button type="button" class="btn platform-section__btn">
+                        <button type="button" class="btn platform-section__btn togglePopup">
                             Try first month for free
                         </button>
                     </div>
@@ -220,15 +257,30 @@
                             <div class="swiper-slide reviews-section__swiper-slide">
                                 <div class="reviews-card reviews-section__card">
                                     <h3 class="reviews-card__heading">
-                                        Gabriela M.
+                                        Sofia A.
                                     </h3>
                                     <div class="reviews-card__body">
                                         <p>
-                                            Unbelievable results with Chicas Mejores! Since signing up, my business has
-                                            experienced a surge in client traffic. The
-                                            exposure and marketing they provide have been instrumental in helping me
-                                            earn more than ever before. Thank you, Chicas
-                                            Mejores, for making my dreams come true!
+                                            Chicas Mejores turned my business around! The subscription was a wise
+                                            investment that paid off big time. I've not only
+                                            gained more connections but have also seen a significant increase in my
+                                            income. If you want to level up your business,
+                                            Chicas Mejores is the way to go!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide reviews-section__swiper-slide">
+                                <div class="reviews-card reviews-section__card">
+                                    <h3 class="reviews-card__heading">
+                                        Isabella R.
+                                    </h3>
+                                    <div class="reviews-card__body">
+                                        <p>
+                                            Chicas Mejores is a lifesaver for models like me. Thanks to their
+                                            subscription, my popularity has become incredible.
+                                            I've attracted a steady stream of clients, and my earnings have soared. This
+                                            service is a secret weapon for success!
                                         </p>
                                     </div>
                                 </div>
@@ -252,15 +304,15 @@
                             <div class="swiper-slide reviews-section__swiper-slide">
                                 <div class="reviews-card reviews-section__card">
                                     <h3 class="reviews-card__heading">
-                                        Gabriela M.
+                                        Jenny G.
                                     </h3>
                                     <div class="reviews-card__body">
                                         <p>
-                                            Unbelievable results with Chicas Mejores! Since signing up, my business has
-                                            experienced a surge in client traffic. The
-                                            exposure and marketing they provide have been instrumental in helping me
-                                            earn more than ever before. Thank you, Chicas
-                                            Mejores, for making my dreams come true!
+                                            “I can't thank Chicas Mejores enough for their incredible service! My
+                                            subscription with them has not only brought more
+                                            connections to my business but has also boosted my revenue significantly.
+                                            The investment in their service has been worth
+                                            every dollar. Highly recommend it!"
                                         </p>
                                     </div>
                                 </div>
@@ -268,15 +320,15 @@
                             <div class="swiper-slide reviews-section__swiper-slide">
                                 <div class="reviews-card reviews-section__card">
                                     <h3 class="reviews-card__heading">
-                                        Gabriela M.
+                                        Maria S.
                                     </h3>
                                     <div class="reviews-card__body">
                                         <p>
-                                            Unbelievable results with Chicas Mejores! Since signing up, my business has
-                                            experienced a surge in client traffic. The
-                                            exposure and marketing they provide have been instrumental in helping me
-                                            earn more than ever before. Thank you, Chicas
-                                            Mejores, for making my dreams come true!
+                                            Chicas Mejores has been a game-changer for my business! Since subscribing to
+                                            their service, my client base has
+                                            skyrocketed. The exposure I've gained has been phenomenal, and I've seen a
+                                            significant increase in my earnings. Gracias,
+                                            Chicas Mejores, for helping me reach new heights!
                                         </p>
                                     </div>
                                 </div>
@@ -402,7 +454,7 @@
                             </p>
                         </div>
                     </div>
-                    <button type="button" class="btn start-section__btn">
+                    <button type="button" class="btn start-section__btn togglePopup">
                         Try first month for free
                     </button>
                 </div>
@@ -427,7 +479,7 @@
                     <p class="text only-section__text">
                         And we will handle all the promotion of your profiles 💫
                     </p>
-                    <button type="button" class="btn btn_white only-section__btn">
+                    <button type="button" class="btn btn_white only-section__btn togglePopup">
                         Try first month for free
                     </button>
                 </div>
@@ -531,6 +583,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/slider.js"></script>
     <script src="./scripts/accordion.js"></script>
+    <script src="./scripts/popup.js"></script>
     <script>
         AOS.init()
     </script>

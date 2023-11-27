@@ -149,6 +149,11 @@ body {
   min-height: 100%;
   overflow-x: clip;
 }
+html.no-scroll,
+body.no-scroll {
+  overflow-x: unset;
+  overflow: hidden;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -343,6 +348,29 @@ body {
 }
 .form__btn {
   max-width: unset;
+}
+.form__subtext {
+  text-align: center;
+  margin-top: 12px;
+  color: #5f5f69;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form__subtext a {
+  color: #070808;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  transition: 0.23s;
+}
+.form__subtext a:hover {
+  text-decoration-color: transparent;
 }
 
 .subheading {
@@ -541,6 +569,55 @@ body {
 }
 .accordion__text {
   font-size: 16px;
+}
+
+.popup {
+  position: relative;
+  width: 100%;
+  max-width: 495px;
+  margin: auto;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 42px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-100%);
+  opacity: 0;
+  visibility: hidden;
+}
+.popup.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0%);
+}
+.popup__close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: 0.23s;
+}
+.popup__close-btn:active {
+  transform: scale(0.95);
+}
+.popup__logo {
+  margin-bottom: 32px;
+}
+.popup__heading {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.popup__text {
+  margin-bottom: 42px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 260px;
 }
 
 .promo-section {
@@ -1003,4 +1080,23 @@ body {
   align-items: flex-start;
   justify-content: start;
   gap: 24px;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.23s;
+  opacity: 0;
+  visibility: hidden;
+}
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
 }/*# sourceMappingURL=index.css.map */

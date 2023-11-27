@@ -36,4 +36,27 @@
   &__btn {
     max-width: unset;
   }
+  &__subtext {
+    text-align: center;
+    margin-top: 12px;
+    color: $dark;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    a {
+      color: $black;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration-line: underline;
+      transition: $defaultTransitionTime;
+      &:hover {
+        text-decoration-color: transparent;
+      }
+    }
+  }
 }
