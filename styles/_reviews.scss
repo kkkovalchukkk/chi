@@ -57,5 +57,35 @@
     align-items: center;
     justify-content: center;
   }
-  
+
+  .swiper-pagination {
+    display: none;
+  }
+  @media (max-width: 475px) {
+    &__swiper-btn {
+      display: none;
+    }
+    .swiper {
+      padding-bottom: 52px;
+    }
+    .swiper-pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .swiper-pagination-bullet {
+      border-radius: 200px;
+      opacity: 0.5;
+      background: $accent;
+      width: 8px;
+      height: 8px;
+      transition: $defaultTransitionTime;
+      &-active {
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+      }
+    }
+  }
 }

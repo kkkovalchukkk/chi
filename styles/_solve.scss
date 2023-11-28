@@ -31,9 +31,12 @@
   }
   @media (max-width: 675px) {
     padding-bottom: 400px;
-    background-size: contain;
+    // background-size: contain;
     &__content {
       text-align: center;
     }
+  }
+  @media (max-width: 475px) {
+    padding-bottom: 280px;
   }
 }

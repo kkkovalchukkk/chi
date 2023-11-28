@@ -52,4 +52,9 @@
       background-position: bottom center;
     }
   }
+  @media (max-width: 675px) {
+    &__wrapper {
+      padding-bottom: 340px;
+    }
+  }
 }

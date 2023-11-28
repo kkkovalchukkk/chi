@@ -34,4 +34,13 @@
       background-size: 36%;
     }
   }
+  @media (max-width: 675px) {
+    &__wrapper {
+      padding-top: 67px;
+      padding-bottom: 365px;
+      justify-content: center;
+      background-position: bottom center;
+      background-size: 50%;
+    }
+  }
 }

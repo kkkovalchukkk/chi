@@ -50,7 +50,12 @@
   }
   @media (max-width: 675px) {
     &__wrapper {
-      background-size: 70%;
+      background-size: 85%;
+    }
+  }
+  @media (max-width: 525px) {
+    &__wrapper {
+      padding-bottom: 370px;
     }
   }
 }

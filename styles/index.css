@@ -186,6 +186,19 @@ body {
   border-bottom: 1px solid #e4e4e5;
   background-color: #ffffff;
 }
+.header__mobile-btn {
+  display: none;
+  color: #d64e52;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background: none;
+}
 .header__wrapper {
   justify-content: space-between;
 }
@@ -198,6 +211,18 @@ body {
   .header {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
     border-bottom: none;
+    padding-top: 46px;
+  }
+  .header__logo-link svg {
+    max-width: 183px;
+  }
+  .header__mobile-btn {
+    display: initial;
+  }
+  .header__lang-menu.lang-menu {
+    top: 12px;
+    right: 12px;
+    position: absolute;
   }
 }
 
@@ -720,6 +745,14 @@ body {
     text-align: center;
   }
 }
+@media (max-width: 475px) {
+  .promo-section__wrapper {
+    padding-top: 433px;
+    background-position: top 17px center;
+    background-size: 189px;
+    justify-content: center;
+  }
+}
 
 .adv-section__wrapper {
   align-items: center;
@@ -832,10 +865,14 @@ body {
 @media (max-width: 675px) {
   .solve-section {
     padding-bottom: 400px;
-    background-size: contain;
   }
   .solve-section__content {
     text-align: center;
+  }
+}
+@media (max-width: 475px) {
+  .solve-section {
+    padding-bottom: 280px;
   }
 }
 
@@ -866,6 +903,7 @@ body {
   margin-bottom: 32px;
   color: #ffffff;
   font-size: 24px;
+  text-align: center;
   font-weight: 300;
 }
 @media (max-width: 768px) {
@@ -873,7 +911,6 @@ body {
     font-size: 20px;
   }
 }
-
 .platform-section__wrapper {
   padding-top: 160px;
   padding-bottom: 160px;
@@ -921,7 +958,12 @@ body {
 }
 @media (max-width: 675px) {
   .platform-section__wrapper {
-    background-size: 70%;
+    background-size: 85%;
+  }
+}
+@media (max-width: 525px) {
+  .platform-section__wrapper {
+    padding-bottom: 370px;
   }
 }
 
@@ -1018,6 +1060,36 @@ body {
   align-items: center;
   justify-content: center;
 }
+.reviews-section .swiper-pagination {
+  display: none;
+}
+@media (max-width: 475px) {
+  .reviews-section__swiper-btn {
+    display: none;
+  }
+  .reviews-section .swiper {
+    padding-bottom: 52px;
+  }
+  .reviews-section .swiper-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .reviews-section .swiper-pagination-bullet {
+    border-radius: 200px;
+    opacity: 0.5;
+    background: #d64e52;
+    width: 8px;
+    height: 8px;
+    transition: 0.23s;
+  }
+  .reviews-section .swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+  }
+}
 
 .features-section__wrapper {
   padding-top: 199.5px;
@@ -1067,6 +1139,11 @@ body {
     background-position: bottom center;
   }
 }
+@media (max-width: 675px) {
+  .features-section__wrapper {
+    padding-bottom: 340px;
+  }
+}
 
 .agency-section__wrapper {
   justify-content: end;
@@ -1097,7 +1174,12 @@ body {
   .agency-section__wrapper {
     justify-content: center;
     padding-bottom: 440px;
-    background-position: bottom 64px center;
+    background-position: bottom 32px center;
+  }
+}
+@media (max-width: 675px) {
+  .agency-section__wrapper {
+    padding-bottom: 270px;
   }
 }
 
@@ -1203,6 +1285,28 @@ body {
     left: -65px;
   }
 }
+@media (max-width: 475px) {
+  .start-section__roadmap {
+    justify-items: center;
+  }
+  .start-section__roadmap-item {
+    max-width: 200px;
+  }
+  .start-section__roadmap-item::after {
+    right: -135px;
+  }
+  .start-section__roadmap-item:nth-child(even)::after {
+    left: -110px;
+  }
+}
+@media (max-width: 375px) {
+  .start-section__roadmap-item::after {
+    right: -117px;
+  }
+  .start-section__roadmap-item:nth-child(even)::after {
+    left: -90px;
+  }
+}
 
 .matter-section__wrapper {
   padding-top: 256px;
@@ -1234,6 +1338,15 @@ body {
   .matter-section__wrapper {
     background-position: right center;
     background-size: 36%;
+  }
+}
+@media (max-width: 675px) {
+  .matter-section__wrapper {
+    padding-top: 67px;
+    padding-bottom: 365px;
+    justify-content: center;
+    background-position: bottom center;
+    background-size: 50%;
   }
 }
 
@@ -1298,6 +1411,7 @@ body {
   transition: 0.23s;
   opacity: 0;
   visibility: hidden;
+  padding: 16px;
 }
 .overlay.active {
   opacity: 1;

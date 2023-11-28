@@ -11,6 +11,7 @@
   transition: $defaultTransitionTime;
   opacity: 0;
   visibility: hidden;
+  padding: 16px;
   &.active {
     opacity: 1;
     visibility: visible;

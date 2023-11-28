@@ -8,5 +8,8 @@ window.addEventListener('DOMContentLoaded', () => {
       nextEl: '.reviews-section__swiper-btn_right',
       prevEl: '.reviews-section__swiper-btn_left',
     },
+    pagination: {
+      el: '.swiper-pagination',
+    },
   });
 });

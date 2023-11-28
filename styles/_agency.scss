@@ -38,7 +38,12 @@
     &__wrapper {
       justify-content: center;
       padding-bottom: 440px;
-      background-position: bottom 64px center;
+      background-position: bottom 32px center;
+    }
+  }
+  @media (max-width: 675px) {
+    &__wrapper {
+      padding-bottom: 270px;
     }
   }
 }

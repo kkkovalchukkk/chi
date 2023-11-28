@@ -107,4 +107,30 @@
       }
     }
   }
+  @media (max-width: 475px) {
+    &__roadmap {
+      justify-items: center;
+      &-item {
+        max-width: 200px;
+        &::after {
+          right: -135px;
+        }
+        &:nth-child(even)::after {
+          left: -110px;
+        }
+      }
+    }
+  }
+  @media (max-width: 375px) {
+    &__roadmap {
+      &-item {
+        &::after {
+          right: -117px;
+        }
+        &:nth-child(even)::after {
+          left: -90px;
+        }
+      }
+    }
+  }
 }
