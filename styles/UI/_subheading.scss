@@ -8,4 +8,7 @@
   span {
     color: $accent;
   }
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 }

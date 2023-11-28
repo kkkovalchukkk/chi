@@ -33,4 +33,24 @@
     padding: 19px 66px;
     max-width: 339px;
   }
+  @media (max-width: 960px) {
+    &__wrapper {
+      padding-top: 64px;
+      padding-bottom: 470px;
+      background-position: bottom 64px center;
+      align-items: center;
+      justify-content: center;
+    }
+    &__content {
+      max-width: unset;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 675px) {
+    &__wrapper {
+      background-size: 70%;
+    }
+  }
 }

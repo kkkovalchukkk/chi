@@ -17,4 +17,23 @@
   &__heading {
     font-size: 32px;
   }
+  @media (max-width: 1280px) {
+    padding-top: 64px;
+    padding-bottom: 460px;
+    background-position: bottom 32px center;
+    &__wrapper {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 768px) {
+    background-size: 80%;
+  }
+  @media (max-width: 675px) {
+    padding-bottom: 400px;
+    background-size: contain;
+    &__content {
+      text-align: center;
+    }
+  }
 }

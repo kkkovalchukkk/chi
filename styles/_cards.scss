@@ -34,4 +34,14 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 56px;
   }
+
+  @media (max-width: 768px) {
+    &__list {
+      justify-items: center;
+      grid-template-columns: 1fr;
+      .card {
+        max-width: 360px;
+      }
+    }
+  }
 }

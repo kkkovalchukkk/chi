@@ -2,9 +2,6 @@
   width: 100%;
   background-image: $ltGradient;
 
-  @media (max-width: 525px) {
-    font-size: 24px;
-  }
   &__wrapper {
     padding-top: 99.5px;
     padding-bottom: 98.5px;
@@ -49,6 +46,29 @@
       &:hover {
         text-decoration-color: transparent;
       }
+    }
+  }
+
+  @media (max-width: 960px) {
+    &__wrapper {
+      background-position: top 36px right 27px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__content {
+      max-width: 438px;
+    }
+  }
+  @media (max-width: 625px) {
+    &__wrapper {
+      padding-top: 506px;
+      background-position: top 64px center;
+      background-size: 189px;
+      justify-content: center;
+    }
+    &__content {
+      text-align: center;
     }
   }
 }

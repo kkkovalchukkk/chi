@@ -17,4 +17,16 @@
     justify-content: start;
     gap: 24px;
   }
+  @media (max-width: 1120px) {
+    &__wrapper {
+      padding-top: 270px;
+      align-items: center;
+      justify-content: center;
+      background-position: top center;
+    }
+    &__content {
+      align-items: center;
+      text-align: center;
+    }
+  }
 }

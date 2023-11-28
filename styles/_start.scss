@@ -83,6 +83,28 @@
     }
   }
 
-  &__btn {
+  @media (max-width: 960px) {
+    &__heading {
+      text-align: center;
+    }
+    &__roadmap {
+      max-width: 410px;
+      grid-template-rows: 32.63% 20.84% 18.28%;
+      grid-template-columns: 1fr;
+      gap: 64px;
+      &-item {
+        &::after {
+          right: -31px;
+          top: 148px;
+          width: 136.86px;
+          height: 44.178px;
+          transform: rotate(90deg);
+        }
+        &:nth-child(even)::after {
+          right: unset;
+          left: -65px;
+        }
+      }
+    }
   }
 }

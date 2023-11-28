@@ -21,4 +21,23 @@
 
   &__text {
   }
+  @media (max-width: 960px) {
+    &__wrapper {
+      background-position: right 65px center;
+    }
+  }
+  @media (max-width: 675px) {
+    &__wrapper {
+      padding-top: 64px;
+      padding-bottom: 480px;
+      background-position: bottom center;
+      align-items: center;
+      justify-content: center;
+    }
+    &__content {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
 }

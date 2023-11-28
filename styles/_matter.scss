@@ -21,4 +21,17 @@
   &__text {
     max-width: 320px;
   }
+
+  @media (max-width: 960px) {
+    &__wrapper {
+      background-position: right 32px center;
+      background-size: 48%;
+    }
+  }
+  @media (max-width: 768px) {
+    &__wrapper {
+      background-position: right center;
+      background-size: 36%;
+    }
+  }
 }

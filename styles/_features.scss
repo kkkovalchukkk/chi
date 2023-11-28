@@ -38,4 +38,18 @@
     font-weight: 400;
     line-height: normal;
   }
+  @media (max-width: 960px) {
+    &__wrapper {
+      padding-top: 64px;
+      background-size: 40%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__wrapper {
+      justify-content: center;
+      padding-bottom: 440px;
+      background-position: bottom center;
+    }
+  }
 }
