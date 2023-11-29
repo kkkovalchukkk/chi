@@ -747,8 +747,6 @@ body {
 }
 @media (max-width: 475px) {
   .promo-section__wrapper {
-    padding-top: 433px;
-    background-position: top 17px center;
     background-size: 189px;
     justify-content: center;
   }
